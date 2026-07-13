@@ -50,7 +50,7 @@ npm run dev
 ## ⚙️ Installation
 
 ### For Users
-1. Visit [JTBConverter Online](https://your-domain.com)
+1. Visit [JTBConverter Online](https://byionic.github.io/JTBConverter)
 2. No additional setup required - runs entirely in the browser
 
 ### For Developers
