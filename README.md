@@ -1,49 +1,104 @@
-# JTBConverter
+# 🔧 JTBConverter
 
 ![JTBConverter Logo](https://raw.githubusercontent.com/byionic/assets/main/jtb.png)
 
-Java to Bedrock Converter is a browser-based application that converts Java Mods to Bedrock Mods using JTBAPI. Built with TypeScript for a seamless, interactive experience.
+> **Java to Bedrock Converter** - A powerful browser-based application for converting Java Mods to Bedrock Mods using JTBAPI. Built with TypeScript for type safety and seamless performance.
 
-## Table of Contents
+## 📑 Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Requirements](#requirements)
-- [Documentation](#documentation)
-- [Contributing](#contributing)
-- [License](#license)
+- [🚀 Quick Start](#quick-start)
+- [✨ Features](#features)
+- [📋 Requirements](#requirements)
+- [⚙️ Installation](#installation)
+- [💻 Usage](#usage)
+- [📚 Documentation](#documentation)
+- [🤝 Contributing](#contributing)
+- [📄 License](#license)
 
-## Installation
+## 🚀 Quick Start
 
-Instructions for installing JTBConverter...
+Get up and running in minutes:
 
-## Usage
+```bash
+# Clone the repository
+git clone https://github.com/byionic/JTBConverter.git
 
-Instructions and examples for using the converter...
+# Install dependencies
+npm install
 
-## Features
+# Start the development server
+npm run dev
+```
 
-- Convert Java Mods to Bedrock Mods
-- Runs directly in your web browser
-- Built with TypeScript for robust type safety
-- Powered by JTBAPI
-- Support for various mod types
+## ✨ Features
 
-## Requirements
+- ✅ **Seamless Conversion** - Convert Java Mods to Bedrock Mods with ease
+- ✅ **Browser-Based** - No installation required, runs directly in your web browser
+- ✅ **Type-Safe** - Built with TypeScript for robust and maintainable code
+- ✅ **JTBAPI Powered** - Leverages the powerful JTBAPI for conversions
+- ✅ **Multi-Format Support** - Handles various mod types and formats
+- ✅ **User-Friendly** - Intuitive interface for seamless user experience
 
-- Modern web browser (Chrome, Firefox, Safari, Edge)
-- JavaScript enabled
-- Node.js 14+ (for development)
+## 📋 Requirements
 
-## Documentation
+- **Browser**: Chrome, Firefox, Safari, or Edge (latest versions recommended)
+- **JavaScript**: Must be enabled
+- **Development**: Node.js 14+ and npm (for building and development)
 
-For detailed documentation and API reference, please visit [JTBAPI Documentation](link-to-docs).
+## ⚙️ Installation
 
-## Contributing
+### For Users
+1. Visit [JTBConverter Online](https://your-domain.com)
+2. No additional setup required - runs entirely in the browser
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+### For Developers
+```bash
+# Install dependencies
+npm install
 
-## License
+# Build the project
+npm run build
 
-This project is licensed under the GNU General Public License v3.0 - see the LICENSE file for details.
+# Run development server
+npm run dev
+```
+
+## 💻 Usage
+
+### Basic Workflow
+
+1. **Upload Your Mod** - Select your Java mod file
+2. **Configure Options** - Customize conversion settings
+3. **Convert** - Click convert and let JTBAPI do the work
+4. **Download** - Get your Bedrock-compatible mod
+
+For detailed examples and advanced usage, see the [Documentation](#documentation) section.
+
+## 📚 Documentation
+
+- [JTBAPI Documentation](link-to-docs) - Official API reference
+- [User Guide](link-to-guide) - Step-by-step tutorials
+- [API Reference](link-to-api) - Developer documentation
+- [FAQ](link-to-faq) - Common questions and troubleshooting
+
+## 🤝 Contributing
+
+We welcome contributions! Here's how you can help:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+Please ensure your code follows our style guidelines and includes appropriate tests.
+
+## 📄 License
+
+This project is licensed under the **GNU General Public License v3.0** - see the [LICENSE](LICENSE) file for details.
+
+---
+
+**Made with ❤️ by [byionic](https://github.com/byionic)**
+
+*Have questions? [Open an issue](https://github.com/byionic/JTBConverter/issues) or reach out to us!*
