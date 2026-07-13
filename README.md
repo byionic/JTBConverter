@@ -1,6 +1,8 @@
 # 🔧 JTBConverter
 
-![JTBConverter Logo](https://raw.githubusercontent.com/byionic/assets/main/jtb.png)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/byionic/assets/main/jtb.png" alt="JTBConverter Logo" />
+</div>
 
 > **Java to Bedrock Converter** - A powerful browser-based application for converting Java Mods to Bedrock Mods using JTBAPI. Built with TypeScript for type safety and seamless performance.
 
