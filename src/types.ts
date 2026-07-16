@@ -34,6 +34,7 @@ export interface ModMetadata {
   modId: string;
   name: string;
   version: string;
+  minecraftVersion?: string;  // Auto-detected from dependencies
   description?: string;
   authors?: string[];
   loader: 'fabric' | 'forge' | 'neoforge' | 'quilt' | 'unknown';
@@ -45,6 +46,11 @@ export interface ConvertedMod {
   blocks: BlockDefinition[];
   items: ItemDefinition[];
   entities: EntityDefinition[];
+  versionInfo: {
+    java: string;
+    bedrock: string[];
+    engine: [number, number, number];
+  };
   errors: string[];
   warnings: string[];
 }
