@@ -1,23 +1,117 @@
-/* Add to existing styles.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: #fff;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 2rem;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.logo h1 {
+  font-size: 2rem;
+  color: #6d4aff;
+  font-weight: 700;
+}
+
+.icon {
+  font-size: 2.5rem;
+}
+
+header p {
+  color: #aaa;
+  font-size: 1rem;
+}
+
+.upload-section {
+  margin-bottom: 2rem;
+}
 
 .drop-zone {
-  /* ... keep existing styles ... */
+  border: 2px dashed #6d4aff;
+  border-radius: 12px;
+  padding: 4rem 2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background: rgba(109, 74, 255, 0.05);
+}
+
+.drop-zone:hover {
+  border-color: #8c6aff;
+  background: rgba(109, 74, 255, 0.15);
 }
 
 .drop-zone.drag-active {
   border-color: #69f0ae;
+  border-style: solid;
   background: rgba(0, 200, 83, 0.15);
   transform: scale(1.02);
+  box-shadow: 0 0 20px rgba(0, 200, 83, 0.3);
 }
 
-/* Make sure the whole label is clickable */
 .drop-zone label {
   display: block;
   cursor: pointer;
+  width: 100%;
 }
 
 .drop-zone .icon {
   font-size: 3rem;
   display: block;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  opacity: 0.7;
 }
+
+.drop-zone p {
+  color: #ccc;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.drop-zone input[type="file"] {
+  display: none;
+}
+
+.options-section {
+  margin-bottom: 2rem;
+}
+
+.options-section label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+select {
+  width: 100%;
